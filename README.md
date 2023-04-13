@@ -1,1 +1,1 @@
-# interpretation-of-machine-learned-kinetic-predictions
+# IntepretingMLKinetics
