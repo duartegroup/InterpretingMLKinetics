@@ -1,1 +1,1 @@
-# Interpretation-of-machine-learned-kinetic-predictions
+# interpretation-of-machine-learned-kinetic-predictions
