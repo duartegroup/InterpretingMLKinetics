@@ -1,2 +1,2 @@
-# BERTKineticSn2
+# Interpreting BERT kinetics
 
