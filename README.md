@@ -17,13 +17,13 @@ This folder contains three sub-directories, with each containing the data and re
 
 * Input and output files from DFT calculations that were executed using the autodE interface: "autodE_inps" and "autodE_outs"
 
-* Input and output files from DFT caculations that were executed without using the autodE interface: "ORCA_(species)_(calculation_type)_inps" and "ORCA_<species>_<calculation_type>_outs"
+* Input and output files from DFT caculations that were executed without using the autodE interface: "ORCA_\<species\>_\<calculation_type\>_inps" and "ORCA_(species)_(calculation_type)_outs"
 
 * Output code from frequency shift calculations in OTherm: "OTherm_outs"
 
 * The DFT dataset: "Data_for_dft.xlsx"
 
-* Rotational symmetry numbers of species whos thermochemistry was calculated without using the autodE interface: "<species>_symmetry_numbers.csv"
+* Rotational symmetry numbers of species whos thermochemistry was calculated without using the autodE interface: "species_symmetry_numbers.csv"
 
 * Summary of the main results from DFT calculations that were executed without using the autodE interface: "Iteration_of_DFT_outs.xlsx"
   
