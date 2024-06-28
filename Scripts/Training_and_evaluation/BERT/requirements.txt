@@ -1,0 +1,13 @@
+pandas==1.1.5
+numpy==1.19.5
+scipy==1.5.3
+rdkit==2021.03.4
+regex== 2021.4.4
+openpyxl==3.0.7
+scikit-learn==0.23.1
+transformers==4.10.2
+torch==1.9.0
+datasets==1.12.1 
+python-dotenv==0.13.0
+ax-platform==0.1.9
+captum==0.4.0
