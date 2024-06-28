@@ -1,0 +1,5 @@
+fbond = (6, 23)
+bbond = (22, 23)
+c atom (reacts) = {23}
+nu atom (reacts) = 6
+lg atom (reacts) = 22

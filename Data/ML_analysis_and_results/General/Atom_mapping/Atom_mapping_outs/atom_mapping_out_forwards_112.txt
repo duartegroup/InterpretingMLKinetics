@@ -1,0 +1,5 @@
+fbond = (4, 19)
+bbond = (19, 20)
+c atom (reacts) = {19}
+nu atom (reacts) = 4
+lg atom (reacts) = 20

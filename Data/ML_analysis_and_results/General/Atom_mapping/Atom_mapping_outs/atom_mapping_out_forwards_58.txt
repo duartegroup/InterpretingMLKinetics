@@ -1,0 +1,5 @@
+fbond = (4, 17)
+bbond = (16, 17)
+c atom (reacts) = {17}
+nu atom (reacts) = 4
+lg atom (reacts) = 16

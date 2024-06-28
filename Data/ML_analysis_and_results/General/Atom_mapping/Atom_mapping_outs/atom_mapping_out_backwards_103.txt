@@ -1,0 +1,5 @@
+fbond = (1, 32)
+bbond = (1, 2)
+c atom in major prod = {1}
+nu atom in major prod  = 2
+lg atom in nucleofuge = 32

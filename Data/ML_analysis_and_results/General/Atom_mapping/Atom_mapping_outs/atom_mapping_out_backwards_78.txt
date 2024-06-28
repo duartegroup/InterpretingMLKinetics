@@ -1,0 +1,5 @@
+fbond = (8, 38)
+bbond = (8, 9)
+c atom in major prod = {8}
+nu atom in major prod  = 9
+lg atom in nucleofuge = 38

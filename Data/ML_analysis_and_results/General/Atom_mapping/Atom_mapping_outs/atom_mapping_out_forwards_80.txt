@@ -1,0 +1,5 @@
+fbond = (0, 8)
+bbond = (8, 11)
+c atom (reacts) = {8}
+nu atom (reacts) = 0
+lg atom (reacts) = 11

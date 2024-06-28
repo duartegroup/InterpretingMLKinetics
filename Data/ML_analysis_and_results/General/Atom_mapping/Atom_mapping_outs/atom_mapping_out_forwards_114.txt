@@ -1,0 +1,5 @@
+fbond = (6, 18)
+bbond = (20, 21)
+c atom (reacts) = set()
+nu atom (reacts) = 6
+lg atom (reacts) = 20

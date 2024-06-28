@@ -1,0 +1,23 @@
+! Opt PBE0 RIJCOSX D3BJ def2-SVP def2/J CPCM(DMF)
+%geom MaxIter 100 end
+%output 
+xyzfile=True 
+end 
+%scf 
+maxiter 250 
+end
+%output
+Print[P_Hirshfeld] = 1
+end
+% maxcore
+4000
+%pal nprocs 4
+end
+*xyz -1 1
+C    -0.56423  -0.20857   0.42187
+Br   -0.63288   0.32183  -1.44553
+H    -1.14065   0.52227   0.99763
+H     0.47443  -0.22875   0.77410
+H    -1.01333  -1.20503   0.50414
+Cl    1.66529  -0.62877   3.05032
+*

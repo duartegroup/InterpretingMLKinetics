@@ -1,0 +1,45 @@
+! OptTS Freq PBE0 RIJCOSX D3BJ def2-SVP def2/J CPCM(Acetone)
+%geom
+modify_internal
+{ B 1 8 A } end
+end
+%geom
+modify_internal
+{ B 1 2 A } end
+end
+%geom
+Constraints
+{C 8 C}
+{C 2 C}
+end
+end
+%output 
+xyzfile=True 
+end 
+%scf 
+maxiter 250 
+end
+%output
+Print[P_Hirshfeld] = 1
+end
+% maxcore
+4000
+%geom
+Calc_Hess true
+Recalc_Hess 30
+Trust -0.1
+MaxIter 150
+end
+%pal nprocs 4
+end
+*xyz -1 1
+C    5.00772819   0.05801716   0.09109776 
+C    6.13650576  -0.90426473   0.08928466 
+I    8.57887323   1.37093171  -0.40733212 
+H    4.06226325  -0.48394652   0.24581490 
+H    5.11321620   0.78630404   0.90660354 
+H    4.93637965   0.58316443  -0.87165318 
+H    6.59221753  -1.21573836  -0.85147473 
+H    6.76788637  -1.01567305   0.97120024 
+Cl   5.13643358  -3.04963062   0.41863774 
+*

@@ -1,0 +1,5 @@
+fbond = (7, 42)
+bbond = (6, 7)
+c atom in major prod = {7}
+nu atom in major prod  = 6
+lg atom in nucleofuge = 42

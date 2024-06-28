@@ -1,0 +1,26 @@
+! Opt PBE0 RIJCOSX D3BJ def2-SVP def2/J CPCM(Acetone)
+%cpcm
+surfacetype vdw_gaussian
+end
+%geom MaxIter 100 end
+%output 
+xyzfile=True 
+end 
+%scf 
+maxiter 250 
+end
+%output
+Print[P_Hirshfeld] = 1
+end
+% maxcore
+4000
+%pal nprocs 4
+end
+*xyz -1 1
+C    -1.38041  -0.25871  -0.35688
+Br    0.25229   0.29599  -1.25466
+H    -1.74641  -1.16544  -0.85204
+H    -2.10275   0.55843  -0.46082
+H    -1.10501  -0.44195   0.69552
+Br    0.03988  -0.54964   2.96621
+*
