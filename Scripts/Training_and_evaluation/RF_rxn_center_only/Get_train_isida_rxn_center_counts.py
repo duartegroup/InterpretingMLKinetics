@@ -8,7 +8,7 @@ from rdkit import Chem
 
 
 train_data = pd.read_excel(
-    r"Total_train_processed.xlsx")
+    r'Total_train_processed.xlsx')
 index_data = pd.read_excel(
     r'Train_rxn_center_indices_resonance_correction.xlsx')
 smarts_and_labels_data = pd.read_excel(
