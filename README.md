@@ -17,7 +17,7 @@ This folder contains three sub-directories, with each containing the data and re
 
 * Input and output files from DFT calculations that were executed using the autodE interface: "autodE_inps" and "autodE_outs"
 
-* Input and output files from DFT caculations that were executed without using the autodE interface: "ORCA_<species>_<calculation_type>_inps" and "ORCA_<species>_<calculation_type>_outs"
+* Input and output files from DFT caculations that were executed without using the autodE interface: "ORCA_$species$_$calculation_type$_inps" and "ORCA_<species>_<calculation_type>_outs"
 
 * Output code from frequency shift calculations in OTherm: "OTherm_outs"
 
