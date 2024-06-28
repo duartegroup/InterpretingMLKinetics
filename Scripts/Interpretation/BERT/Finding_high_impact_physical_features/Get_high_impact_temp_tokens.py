@@ -13,7 +13,7 @@ percentile_data = pd.read_excel(
 with pd.ExcelWriter(
         r"High_impact_temp_tokens.xlsx") as writer:
     for percentile in ["Accurate predictions", "Inaccurate predictions"]:
-        percentile_samples = percentile_data[percentile]['Total test index'].to_list()
+        percentile_samples = percentile_data[percentile]["Total test index"].to_list()
         for sample in percentile_samples:
             sample_set_of_feats_data = set_of_feats_data[f"Total test sample {sample}"]
             sample_set_of_feats = sample_set_of_feats_data["Token index"].to_list()
