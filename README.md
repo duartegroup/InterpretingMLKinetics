@@ -6,9 +6,9 @@ This repository contains the data, code, and trained models for the work entitle
 
 ## Python versions and libraries
 
-Code for BERT model training and evaluation, and calculation of Integrated Gradients, was tested using Python version 3.6.13 and the following libraries: pandas, numpy, scipy, rdkit, regex, openpyxl, scikit-learn, transformers, torch, datasets, dotenv, ax-platform and captum (versions specified in Scripts/Training_and_evaluation/BERT/requirements.txt)
+Code for training and evaluation of the BERT model, and calculation of Integrated Gradients, was tested using Python version 3.6.13 and the following libraries: pandas, numpy, scipy, rdkit, regex, openpyxl, scikit-learn, transformers, torch, datasets, python-dotenv, ax-platform and captum (versions specified in ./Scripts/Training_and_evaluation/BERT/requirements.txt).
 
-All other code was tested using Python version 3.9.12 and the following libraries: pandas, numpy, scipy, matplotlib,  rdkit, regex, scikit-learn, CIMtools, CGRtools and treeinterpreter, pywaffle (versions specified in ./requirements.txt)
+All other code was tested using Python version 3.9.12 and the following libraries: pandas, numpy, scipy, matplotlib, rdkit, regex, scikit-learn, CIMtools, CGRtools, treeinterpreter and pywaffle (versions specified in ./requirements.txt).
 
 ### Data
 This folder contains three sub-directories, with each containing the data and results for the DFT and ML calculations: "DFT", "ML_analysis_and_results" and "ML_datasets". The files that are contained within each of these sub-directories are as follows: 
@@ -17,9 +17,9 @@ This folder contains three sub-directories, with each containing the data and re
 
 * Input and output files from DFT calculations that were executed using the autodE interface: "autodE_inps" and "autodE_outs"
 
-* Input and output files from DFT caculations that were executed without using the autodE interface: "ORCA_<species>_<calculation_type>_inps"and "ORCA_<species>_<calculation_type>_outs"
+* Input and output files from DFT caculations that were executed without using the autodE interface: "ORCA_<species>_<calculation_type>_inps" and "ORCA_<species>_<calculation_type>_outs"
 
-* Output code from frequency shift calculations using OTherm: "OTherm_outs"
+* Output code from frequency shift calculations in OTherm: "OTherm_outs"
 
 * The DFT dataset: "Data_for_dft.xlsx"
 
@@ -29,7 +29,7 @@ This folder contains three sub-directories, with each containing the data and re
   
 #### ML_datasets 
 
-This subdirectory contains the input data for each of the trained ML models. "Input_data_<dataset_name>.xlsx" is the raw dataset with reactions in SMILES format, solvent names in text format, and logk, temperature, solvent mole fractions, and ionic strength in float format. "Total_test_processed.xlsx" is the Total test data with SMILES of each species in the reaction separated into their own columns, and "Total_train_unstandardized_isida.xlsx" is the unstandardized ISIDA fragment representation of the Total train data. Model inputs are provided in the following folders:
+This subdirectory contains the input data for each of the trained ML models. "Input_data_<dataset_name>.xlsx" is the raw dataset with reactions in SMILES format, solvent names in text format, and logk, temperature, solvent mole fractions, and ionic strength in float format. "Total_test_processed.xlsx" is the total test data with SMILES of each species in the reaction separated into their own columns, and "Total_train_unstandardized_isida.xlsx" is the unstandardized ISIDA fragment representation of the total train data. Model inputs are provided in the following folders:
 
 * Datasets in .rdf format for input into the RF training scripts: "rdfs"
 
