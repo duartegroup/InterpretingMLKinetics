@@ -1,0 +1,17 @@
+Data/ML_datasets/RF_cv_splits/Madzhidov_cleaned_cv_splits.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_datasets/RF_cv_splits/Total_train_cv_splits.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/diversity_curve/diversity_curve_input_data/Madzhidov_cleaned_plus_1_per_cent_04.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/diversity_curve/diversity_curve_input_data/Madzhidov_cleaned_plus_25_per_cent_04.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/diversity_curve/diversity_curve_input_data/Madzhidov_cleaned_plus_50_per_cent_04.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/diversity_curve/diversity_curve_input_data/Madzhidov_cleaned_plus_5_per_cent_04.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/diversity_curve/diversity_curve_input_data/Madzhidov_cleaned_plus_75_per_cent_04.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/diversity_curve/diversity_curve_input_data/cv_splits filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/diversity_curve/diversity_curve_input_data/Madzhidov_cleaned_plus_100_per_cent_04.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/diversity_curve/diversity_curve_input_data/Madzhidov_cleaned_plus_10_per_cent_04.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/learning_curve/learning_curve_input_data/Total_train_50_per_cent.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/learning_curve/learning_curve_input_data/Total_train_5_per_cent.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/learning_curve/learning_curve_input_data/Total_train_75_per_cent.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/learning_curve/learning_curve_input_data/cv_splits filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/learning_curve/learning_curve_input_data/Total_train_10_per_cent.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/learning_curve/learning_curve_input_data/Total_train_1_per_cent.xlsx filter=lfs diff=lfs merge=lfs -text
+Data/ML_analysis_and_results/RF/RF_training_and_evaluation/learning_curves/learning_curve/learning_curve_input_data/Total_train_25_per_cent.xlsx filter=lfs diff=lfs merge=lfs -text
