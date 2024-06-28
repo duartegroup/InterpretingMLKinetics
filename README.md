@@ -17,19 +17,19 @@ This folder contains three sub-directories, with each containing the data and re
 
 * Input and output files from DFT calculations that were executed using the autodE interface: "autodE_inps" and "autodE_outs"
 
-* Input and output files from DFT caculations that were executed without using the autodE interface: "ORCA_\<species\>_\<calculation_type\>_inps" and "ORCA_(species)_(calculation_type)_outs"
+* Input and output files from DFT caculations that were executed without using the autodE interface:"ORCA_SPECIES_CALCULATION_TYPE_inps" and "ORCA_SPECIES_CALCULATION_TYPE_outs"
 
 * Output code from frequency shift calculations in OTherm: "OTherm_outs"
 
 * The DFT dataset: "Data_for_dft.xlsx"
 
-* Rotational symmetry numbers of species whos thermochemistry was calculated without using the autodE interface: "species_symmetry_numbers.csv"
+* Rotational symmetry numbers of species whos thermochemistry was calculated without using the autodE interface: "SPECIES_symmetry_numbers.csv"
 
 * Summary of the main results from DFT calculations that were executed without using the autodE interface: "Iteration_of_DFT_outs.xlsx"
   
 #### ML_datasets 
 
-This subdirectory contains the input data for each of the trained ML models. "Input_data_<dataset_name>.xlsx" is the raw dataset with reactions in SMILES format, solvent names in text format, and logk, temperature, solvent mole fractions, and ionic strength in float format. "Total_test_processed.xlsx" is the total test data with SMILES of each species in the reaction separated into their own columns, and "Total_train_unstandardized_isida.xlsx" is the unstandardized ISIDA fragment representation of the total train data. Model inputs are provided in the following folders:
+This subdirectory contains the input data for each of the trained ML models. "Input_data_DATASET_NAME.xlsx" is the raw dataset with reactions in SMILES format, solvent names in text format, and logk, temperature, solvent mole fractions, and ionic strength in float format. "Total_test_processed.xlsx" is the total test data with SMILES of each species in the reaction separated into their own columns, and "Total_train_unstandardized_isida.xlsx" is the unstandardized ISIDA fragment representation of the total train data. Model inputs are provided in the following folders:
 
 * Datasets in .rdf format for input into the RF training scripts: "rdfs"
 
@@ -51,11 +51,11 @@ This subdirectory contains three folders: "RF", "BERT", and "General".
 
 "RF" and "BERT" both have the following structure:
 
-* Data and results from interpreting model predictions: "<BERT/RF>_interpretation"
+* Data and results from interpreting model predictions: "MODEL_interpretation"
   
-* Data and results for representative examples of LG, steric, nucleophilic, and allylic effects: "<BERT/RF>_representative_examples"
+* Data and results for representative examples of LG, steric, nucleophilic, and allylic effects: "MODEL_representative_examples"
 
-*  Results from training and evaluating the models: "<BERT/RF>_training_and_evaluation"
+*  Results from training and evaluating the models: "MODEL_training_and_evaluation"
 
 "RF" also contains the folder "Rxn_center_only" which countains the data and results from training, evaluating, and interpreting the RF model trained on reaction center ISIDA fragments . 
 
