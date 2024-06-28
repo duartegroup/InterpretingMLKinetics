@@ -63,7 +63,7 @@ def _replace_double_bond(tokens):
 with pd.ExcelWriter(
         f"High_impact_solvent_tokens.xlsx") as writer:
     for percentile in ["Accurate predictions", "Inaccurate predictions"]:
-        percentile_samples = percentile_data[percentile]['Total test index'].to_list()
+        percentile_samples = percentile_data[percentile]["Total test index"].to_list()
         for sample in percentile_samples:
             if solvents[sample] != "solvent is nu":
                 sample_ig_data = ig_data[f"Total test sample {sample}"]
