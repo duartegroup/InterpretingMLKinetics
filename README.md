@@ -6,4 +6,7 @@ This repository contains the data, code, and trained models for the work entitle
 
 ## Python versions and libraries
 
-Code for BERT model training and evaluation, and calculation of Integrated Gradients, was tested using Python version 3.6.13. All other code was tested using Python version 3.9.12. All code was tested using the following libraries: pandas, numpy, scipy,  matplotlib, rdkit, re, os, pickle, scikit-learn, CIMtools, CGRtools, treeinterpreter, transformers, torch, datasets, dotenv, ax, and captum (versions specified in requirements.txt).
+Code for BERT model training and evaluation, and calculation of Integrated Gradients, was tested using Python version 3.6.13 and the following libraries: pandas, numpy, scipy, rdkit, regex, openpyxl, scikit-learn, transformers, torch, datasets, dotenv, ax-platform and captum (versions specified in Scripts/Training_and_evaluation/BERT/requirements.txt)
+
+All other code was tested using Python version 3.9.12 and the following libraries: pandas, numpy, scipy, matplotlib,  rdkit, regex, scikit-learn, CIMtools, CGRtools and treeinterpreter, pywaffle (versions specified in ./requirements.txt)
+
