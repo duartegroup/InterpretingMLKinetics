@@ -86,7 +86,7 @@ This subdirectory contains the trained ML models:
 
 * BERT model with the optimized hyperparameters: "BERT_best_hps"
 
-* RF model trained on the data compiled by Madzhidov and co-workers (https://doi.org/10.1002/minf.201800104), after being cleaned in the current work: "RF_Madzhhidov_cleaned"
+* RF model trained on the data compiled by Madzhidov and co-workers (https://doi.org/10.1002/minf.201800104), after being cleaned in the current work: "RF_Madzhidov_cleaned"
 
 * RF model trained on the total train data: "RF_total_train"
 
