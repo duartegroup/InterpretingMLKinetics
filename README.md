@@ -74,15 +74,3 @@ This folder contains three sub-directories, with each containing python scripts 
 #### Utils
 
 * Example python script for checking whether uncertainties associated with feature importances are uncorrelated
-
-### Models
-
-This subdirectory contains the trained ML models: 
-
-* BERT model with the optimized hyperparameters: "BERT_best_hps"
-
-* RF model trained on the data compiled by Madzhidov and co-workers (https://doi.org/10.1002/minf.201800104), after being cleaned in the current work: "RF_Madzhidov_cleaned"
-
-* RF model trained on the total train data: "RF_total_train"
-
-* RF model trained on reaction center ISIDA fragments (and physical properties of solvent and temperature): "RF_rxn_center_only"  
