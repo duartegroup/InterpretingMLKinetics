@@ -1,5 +1,0 @@
-fbond = (1, 22)
-bbond = (22, 23)
-c atom (reacts) = {22}
-nu atom (reacts) = 1
-lg atom (reacts) = 23

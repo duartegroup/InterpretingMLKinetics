@@ -1,5 +1,0 @@
-fbond = (3, 15)
-bbond = (14, 15)
-c atom (reacts) = {15}
-nu atom (reacts) = 3
-lg atom (reacts) = 14

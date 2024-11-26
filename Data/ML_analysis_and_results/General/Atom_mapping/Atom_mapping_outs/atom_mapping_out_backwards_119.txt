@@ -1,5 +1,0 @@
-fbond = (2, 24)
-bbond = (2, 3)
-c atom in major prod = {2}
-nu atom in major prod  = 3
-lg atom in nucleofuge = 24
