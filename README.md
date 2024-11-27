@@ -52,7 +52,7 @@ This subdirectory contains three folders: "RF", "BERT", and "General".
 
 *  Results from training and evaluating the models: "MODEL_training_and_evaluation"
 
-"RF" also contains the folder "Rxn_center_only" which countains the data and results from training, evaluating, and interpreting the RF model trained on reaction center ISIDA fragments . 
+"RF" also contains the folder "Rxn_center_only" which countains the data and results from training, evaluating, and interpreting the RF model trained on reaction center ISIDA fragments. 
 
 
 ### Scripts
