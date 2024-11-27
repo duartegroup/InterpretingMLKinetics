@@ -57,7 +57,7 @@ This subdirectory contains three folders: "RF", "BERT", and "General".
 
 ### Scripts
 
-This folder contains three sub-directories, with each containing python scripts for training, evaluation, and interpretation of the RF and BERT models (including general utilities): "Training_and_evaluation", "Interpretation" and "Utils". The files that are contained within each of these sub-directories are as follows: 
+This folder contains three subdirectories, with each containing python scripts for training, evaluation, and interpretation of the RF and BERT models (including general utilities): "Training_and_evaluation", "Interpretation" and "Utils". The files that are contained within each of these subdirectories are as follows: 
 
 #### Training and evaluation
 
