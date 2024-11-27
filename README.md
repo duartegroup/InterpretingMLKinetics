@@ -6,7 +6,7 @@ This repository contains the data and code for the work entitled "Interpretable 
 
 
 ### Data
-This folder contains three subdirectories, with each containing the data and results for the DFT and ML calculations: "DFT", "ML_analysis_and_results" and "ML_datasets". The files that are contained within each of these sub-directories are as follows: 
+This folder contains three subdirectories, with each containing the data and results for the DFT and ML calculations: "DFT", "ML_analysis_and_results" and "ML_datasets". The files that are contained within each of these subdirectories are as follows: 
 
 #### DFT
 
