@@ -2,11 +2,11 @@
 
 This repository contains the data and code for the work entitled "Interpretable predictions of SN2 kinetics using the BERT and RF architectures: Comparison to known reactivity rules". 
 
-<img width="1109" alt="image" src="https://github.com/C-Wils/InterpretingMLKinetics/assets/88711576/ad528e27-c8ca-4b3c-85f1-096ad9361106">
+![image](https://github.com/user-attachments/assets/14fd32ea-9d58-4023-beb6-1810fb262b3c)
 
 
 ### Data
-This folder contains three sub-directories, with each containing the data and results for the DFT and ML calculations: "DFT", "ML_analysis_and_results" and "ML_datasets". The files that are contained within each of these sub-directories are as follows: 
+This folder contains three subdirectories, with each containing the data and results for the DFT and ML calculations: "DFT", "ML_analysis_and_results" and "ML_datasets". The files that are contained within each of these sub-directories are as follows: 
 
 #### DFT
 
