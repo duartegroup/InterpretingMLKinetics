@@ -18,7 +18,7 @@ This folder contains three subdirectories, with each containing the data and res
 
 * The DFT dataset: "Data_for_dft.xlsx"
 
-* Rotational symmetry numbers of species whos thermochemistry was calculated without using the autodE interface: "SPECIES_symmetry_numbers.csv"
+* Rotational symmetry numbers of species whose thermochemistry was calculated without using the autodE interface: "SPECIES_symmetry_numbers.csv"
 
 * Summary of the main results from DFT calculations that were executed without using the autodE interface: "Iteration_of_DFT_outs.xlsx"
   
