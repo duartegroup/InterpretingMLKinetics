@@ -40,7 +40,7 @@ This subdirectory contains three folders: "RF", "BERT", and "General".
 
 "General" contains the data relevant to the analysis of both RF and BERT:
 
-  * Results for atom mapping calculations carried out on the reactions in the test data: "Atom_mapping"
+  * Reaction center atomic indices for reactions in the test data: "Rxn_center_indices_resonance_correction.xlsx"
 
   * Results from reaction center substructure matching to the representative examples of LG, steric, nucleophilic, and allylic effects: "Representative examples"
 
