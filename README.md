@@ -5,7 +5,7 @@ This repository contains the data and code for the work entitled "Interpretable 
 ![image](https://github.com/user-attachments/assets/14fd32ea-9d58-4023-beb6-1810fb262b3c)
 
 ### TMAPs
-Interactive TMAPs of the training and test data, and accurate and inaccurate predictions are provided. The corresponding .js files should be downloaded in the same directory as the TMAP.html files
+Interactive TMAPs of the training and test data, and accurate and inaccurate predictions are provided. The corresponding .js files should be downloaded in the same directory as the TMAP.html files.
 
 ### Data
 This folder contains three subdirectories, with each containing the data and results for the DFT and ML calculations: "DFT", "ML_analysis_and_results" and "ML_datasets". The files that are contained within each of these subdirectories are as follows: 
