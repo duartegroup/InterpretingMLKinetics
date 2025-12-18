@@ -87,4 +87,4 @@ This folder contains three subdirectories, with each containing python scripts f
 
 ### How to cite this material
 
-DOI: 10.5281/zenodo.17980697
+Please cite this material using the following doi. DOI: 10.5281/zenodo.17980697
