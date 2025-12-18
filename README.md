@@ -1,6 +1,6 @@
 # Interpreting ML kinetics
 
-This repository contains the data and code for the work entitled "Interpretable predictions of SN2 kinetics using the BERT and RF architectures: Comparison to known reactivity rules". 
+This repository contains the data and code for the work entitled "Kinetic predictions for SN2 reactions using the BERT architecture: Comparison and interpretation". 
 
 ![image](https://github.com/user-attachments/assets/14fd32ea-9d58-4023-beb6-1810fb262b3c)
 
