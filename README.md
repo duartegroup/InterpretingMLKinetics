@@ -84,3 +84,7 @@ This folder contains three subdirectories, with each containing python scripts f
 #### Utils
 
 * Example python script for checking whether uncertainties associated with feature importances are uncorrelated
+
+### How to cite
+
+DOI: 10.5281/zenodo.17980697
